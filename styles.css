@@ -1,0 +1,39 @@
+body {
+  background-color: #082a2a;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Amatic SC", cursive;
+  font-size: 30px;
+}
+h2 {
+  margin-top: -10px;
+  font-size: 29px;
+  margin-bottom: 45px;
+}
+
+span {
+  color: green;
+}
+button {
+  font-family: cursive;
+  background-color: green;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+#password1,
+#password2 {
+  background-color: rgb(83, 133, 102);
+  padding: 10px 60px;
+  cursor: pointer;
+}
+.linia {
+  border-bottom: 2px solid white;
+}
+.password-flexbox {
+  margin-top: 50px;
+  display: flex;
+  gap: 100px;
+}
